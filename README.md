@@ -2,6 +2,11 @@
 ### [Project Page](https://bayesrays.github.io/) | [Paper](https://arxiv.org/abs/2309.03185)
 <img src="https://github.com/BayesRays/bayesrays.github.io/raw/main/video/demo1.gif" height=400>
 
+### Purpose of Fork
+Bayes' Rays is dependent on NeRFStudio, which does not support many variants of NeRF. This repo explores two possibility, each will have their own branches:
+1. Implementing Sat-NeRF and Shadow-NeRF
+2. Removing NeRFStudio dependency, to widen the NeRF model support
+
 ### Installation
 Bayes' Rays is built on top of [Nerfstudio](https://docs.nerf.studio/).
 After cloning Bayes' Rays repository, install Nerfstudio as a package by following the installation guide on [Nerfstudio installation page](https://docs.nerf.studio/quickstart/installation.html)
